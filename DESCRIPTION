@@ -25,7 +25,7 @@ Suggests:
     reshape2,
     xtable
 License: MIT + file LICENSE
-URL: https://github.com/jimhester/knitrBootstrap#readme
+URL: https://github.com/jimhester/knitrBootstrap#readme, https://github.com/jimhester/knitrBootstrap
 BugReports: https://github.com/jimhester/knitrBootstrap/issues
 VignetteBuilder: knitr
 RoxygenNote: 7.3.3
