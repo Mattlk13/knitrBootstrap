@@ -10,3 +10,4 @@ Makefile
 R_package
 ^cran-comments\.md$
 ^CRAN-RELEASE$
+^CRAN-SUBMISSION$
