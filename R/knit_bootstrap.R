@@ -18,9 +18,8 @@
 #'   theme='Slate', theme.chooser=TRUE, highlight.chooser=TRUE))
 #'}
 #' @import knitr rmarkdown markdown
-#' @name knitrBootstrap
-#' @docType package
-NULL
+#' @keywords internal
+"_PACKAGE"
 
 themes = c(
                 'Default'='https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css',
@@ -71,8 +70,6 @@ highlights = c(
 #' This function includes the knitrBootstrap HTML headers to wrap the knitr
 #' output in bootstrap styled HTML.
 #'
-#' @inheritParams knit_bootstrap_md
-#' @inheritParams create_header
 #' @param input Rmd input file to knit into HTML
 #' @param output HTML output file created, if NULL uses the input filename with
 #'        the extension changed to .html
@@ -101,7 +98,7 @@ knit_bootstrap_Rmd = knit_bootstrap
 #' @param input md input file to be converted to HTML'
 #' @param output HTML output file created, if NULL uses the input filename with
 #'        the extension changed to .html
-#' @seealso \code{\link{knit_bootstrap}} \code{\link{knit}},
+#' @seealso \code{\link{knit_bootstrap}} \code{\link[knitr]{knit}},
 #'          \code{\link[markdown]{markdownToHTML}}
 #' @export
 knit_bootstrap_md = function(input, output = NULL) {

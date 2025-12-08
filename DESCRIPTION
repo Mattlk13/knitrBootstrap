@@ -1,8 +1,10 @@
 Package: knitrBootstrap
 Version: 1.0.3
-Maintainer: Jim Hester <james.f.hester@gmail.com>
-Author: Jim Hester
 Title: 'knitr' Bootstrap Framework
+Authors@R: person(given = "Jim",
+                  family = "Hester",
+                  role = c("aut", "cre"),
+                  email = "james.f.hester@gmail.com")
 Description: A framework to create Bootstrap <http://getbootstrap.com/> HTML reports from 'knitr'
     'rmarkdown'.
 Depends:
@@ -26,4 +28,5 @@ License: MIT + file LICENSE
 URL: https://github.com/jimhester/knitrBootstrap#readme
 BugReports: https://github.com/jimhester/knitrBootstrap/issues
 VignetteBuilder: knitr
-RoxygenNote: 6.0.1
+RoxygenNote: 7.3.3
+Encoding: UTF-8

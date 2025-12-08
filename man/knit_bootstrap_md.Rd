@@ -17,6 +17,6 @@ This function includes the knitrBootstrap HTML headers to wrap the knitr
 output in bootstrap styled HTML.
 }
 \seealso{
-\code{\link{knit_bootstrap}} \code{\link{knit}},
+\code{\link{knit_bootstrap}} \code{\link[knitr]{knit}},
          \code{\link[markdown]{markdownToHTML}}
 }

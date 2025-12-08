@@ -4,10 +4,16 @@
 \alias{bootstrap_document}
 \title{Convert to a Bootstrap styled HTML document}
 \usage{
-bootstrap_document(title = NULL, theme = "default",
-  highlight = "highlightjs", theme.chooser = FALSE,
-  highlight.chooser = FALSE, menu = TRUE, custom.header = NULL,
-  clean_supporting = TRUE)
+bootstrap_document(
+  title = NULL,
+  theme = "default",
+  highlight = "highlightjs",
+  theme.chooser = FALSE,
+  highlight.chooser = FALSE,
+  menu = TRUE,
+  custom.header = NULL,
+  clean_supporting = TRUE
+)
 }
 \arguments{
 \item{title}{Title to use in the bootstrap document}
