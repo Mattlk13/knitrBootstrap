@@ -5,7 +5,7 @@ Authors@R: person(given = "Jim",
                   family = "Hester",
                   role = c("aut", "cre"),
                   email = "james.f.hester@gmail.com")
-Description: A framework to create Bootstrap <http://getbootstrap.com/> HTML reports from 'knitr'
+Description: A framework to create Bootstrap <https://getbootstrap.com/> HTML reports from 'knitr'
     'rmarkdown'.
 Depends:
     R (>= 3.0.0)

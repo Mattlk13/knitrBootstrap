@@ -1,4 +1,5 @@
-# knitrBootstrap 1.0.3
+# knitrBootstrap 1.0.4
+  - Fix R CMD check issues
 
 # knitrBootstap 1.0.3
   - Remove maptools soft dependency
