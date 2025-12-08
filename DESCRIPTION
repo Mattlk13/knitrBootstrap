@@ -1,5 +1,5 @@
 Package: knitrBootstrap
-Version: 1.0.3
+Version: 1.0.4
 Title: 'knitr' Bootstrap Framework
 Authors@R: person(given = "Jim",
                   family = "Hester",
